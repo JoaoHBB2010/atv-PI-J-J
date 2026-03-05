@@ -1,0 +1,66 @@
+html{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* === Header ===*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    font-size: 2rem;
+}
+ul{
+    display: flex;
+    gap: 2vw;
+}
+ul li a{
+    color: white;
+}
+header{
+    background: gray;
+    padding: 2vw;
+}
+div.header{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+div.header a{
+    text-decoration: none;
+    color: white;
+}
+
+/* === BANNER ===*/
+
+section.banner h2{
+    font-size: 7rem;
+}
+.div-banner{
+    background: url(../src/casameno-foto2\ -\ Copia.webp) no-repeat center center;
+    background-size: 100% auto;
+    padding: 30vh 0;
+}
+.div-banner p{
+    color: white;
+    font-size: 2rem;
+}
+
+/* === Conteudo === */
+section.conteudo ul li#foto1{
+    background: url(../src/casamento-foto1.webp);
+    padding: 20vh 0;
+}
+section.conteudo ul li#foto2{
+    background: url(../src/casamento-foto3.webp);
+}
+section.conteudo ul li#foto3{
+    background: url(../src/casamento-foto4.avif);
+}
+section.conteudo ul li#foto4{
+    background: url(../src/casameno-foto5.avif);
+}
