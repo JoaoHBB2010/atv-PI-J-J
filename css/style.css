@@ -94,7 +94,6 @@ section.banner h2 {
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    transition: 0.3s;
 }
 
 .conteudo ul li a {
@@ -108,7 +107,7 @@ section.banner h2 {
 
 /* === Registry === */
 
-section.resgistry {
+section.registry {
     background:  url('../src/imagem-vaso-flor - Copia.avif') no-repeat center center;
     background-size: cover;
     padding: 15vh 0;
@@ -119,17 +118,17 @@ section.resgistry {
     gap: 2rem;
 }
 
-section.resgistry h2 {
+section.registry h2 {
     font-size: 8rem; 
 }
 
-section.resgistry p {
+section.registry p {
     font-size: 1.5rem;
     max-width: 600px;
     margin-bottom: 1rem;
 }
 
-section.resgistry button {
+section.registry button {
     background: gray;
     color: white;
     border: 2px solid white;
@@ -141,7 +140,7 @@ section.resgistry button {
     border-radius: 3vw;
 }
 
-section.resgistry button:hover {
+section.registry button:hover {
     background: white;
     color: gray; 
     transform: scale(1.05);
@@ -193,4 +192,47 @@ footer{
 }
 footer h2{
     margin: 2vw 0 3vw 0;
+}
+
+/* === RESPONSIVIDADE === */
+
+@media (max-width: 768px){
+    html{
+        font-size: 1rem ;
+    }
+    html h2{
+        font-size: 3.5rem !important;
+
+    }
+    header ul{
+        display: none;
+    }
+
+    .div-banner{
+        padding: 15vh 0;
+    }
+    .div-banner p{
+        font-size: 1.5rem;
+    }
+   
+    footer h2{
+        font-size: 2rem;
+    }
+    .conteudo ul{
+        display: block;
+    }
+    .conteudo ul li{
+        margin: 10vw 0vw 10vw 0vw;
+    }
+
+    section.registry{
+        padding: 10vh 0;
+    }
+
+    section.contact{
+        padding: 10vh 0;
+    }
+    section.contact a{
+        font-size: 1.5rem;
+    }
 }
