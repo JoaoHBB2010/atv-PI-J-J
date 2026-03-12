@@ -99,3 +99,42 @@ section.banner h2 {
 #foto4 { background-image: url('../src/casameno-foto5.avif'); }
 
 /* === Registry === */
+
+section.resgistry {
+    background:  url('../src/imagem-vaso-flor - Copia.avif') no-repeat center center;
+    background-size: cover;
+    padding: 15vh 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+section.resgistry h2 {
+    font-size: 8rem; 
+}
+
+section.resgistry p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin-bottom: 1rem;
+}
+
+section.resgistry button {
+    background: gray;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 3vw;
+}
+
+section.resgistry button:hover {
+    background: white;
+    color: gray; 
+    transform: scale(1.05);
+}
