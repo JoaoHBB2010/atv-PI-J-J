@@ -73,6 +73,18 @@ section.banner h2 {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px; 
 }
+#foto1 { 
+    background-image: url('../src/casamento-foto1.webp');
+}
+#foto2 {
+     background-image: url('../src/casamento-foto3.webp');
+}
+#foto3 {
+     background-image: url('../src/casamento-foto4.avif');
+}
+#foto4 { 
+    background-image: url('../src/casameno-foto5.avif');
+}
 
 .conteudo ul li {
     background-size: cover;
@@ -93,10 +105,6 @@ section.banner h2 {
     border-radius: 5px;
 }
 
-#foto1 { background-image: url('../src/casamento-foto1.webp'); }
-#foto2 { background-image: url('../src/casamento-foto3.webp'); }
-#foto3 { background-image: url('../src/casamento-foto4.avif'); }
-#foto4 { background-image: url('../src/casameno-foto5.avif'); }
 
 /* === Registry === */
 
@@ -137,4 +145,42 @@ section.resgistry button:hover {
     background: white;
     color: gray; 
     transform: scale(1.05);
+}
+
+/*=== Contact Us ===*/
+
+/*=== Contact Us Corrigido ===*/
+
+.contact {
+    padding: 20vh 5%;
+    background: url('../src/contate-nos.avif') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 7vw 0 7vw 0;
+}
+
+.contact h2 {
+    font-size: 5rem; 
+    color: white;
+}
+
+.contact-tel-email {
+    padding: 30px 50px;
+    background: gray;
+    display: flex;
+    gap: 10px;
+    border-radius: 5vw;
+}
+
+.contact-tel-email span {
+    font-weight: bold;
+    color: white;
+}
+
+.contact-tel-email a {
+    text-decoration: none;
+    color: white;
 }
