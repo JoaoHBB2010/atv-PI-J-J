@@ -235,4 +235,10 @@ footer h2{
     section.contact a{
         font-size: 1.5rem;
     }
+
+    .contact-tel-email{
+        padding: 15px 15px;
+        align-items: center;
+    }
+    
 }
